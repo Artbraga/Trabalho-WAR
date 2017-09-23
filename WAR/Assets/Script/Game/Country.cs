@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Territory : MonoBehaviour {
+public class Country : MonoBehaviour {
 
 	//mudar de acordo com a representação do jogador
 	private string player;
