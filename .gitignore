@@ -1,0 +1,14 @@
+
+*.csproj
+WAR/Library/assetDatabase3
+WAR/Library/CurrentLayout.dwlt
+*.dwlt
+WAR/Library/expandedItems
+*.txt
+WAR/Library/metadata/00/0000000000000000b000000000000000
+*.info
+WAR/Library/metadata/4c/4ce86cf9a4962774c8264f0318f9b556
+*.info
+WAR/Library/metadata/2c/2c7439aebbc93714f9b1f4f90007882f
+*.asset
+*.cache

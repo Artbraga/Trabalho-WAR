@@ -51,8 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\Script\Game\Country.cs" />
      <Compile Include="Assets\Script\Game\GameUIController.cs" />
+=======
+     <Compile Include="Assets\Scripts\GUI\ChangeSceneButton.cs" />
+>>>>>>> Menu
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scene/game.unity
+=======
+- path: Assets/Scene/credits.unity
+>>>>>>> Menu
   isLoaded: 1
   isActive: 1
