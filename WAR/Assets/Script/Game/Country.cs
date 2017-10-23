@@ -25,13 +25,15 @@ public class Country : MonoBehaviour {
 			if(value > 0){
 				troopsCount = value;
 			}
+			else{
 			troopsCount = 1;
+			}
 		}
 	}
 
 	void Start(){
-		TroopsCount = 0;
-		Player = "Alysson";
+		TroopsCount = (short)Random.Range(0,5);
+		Player = this.gameObject.name;
 	}
 	void OnMouseDown(){
 		showTerritoryInfo();
