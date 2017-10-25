@@ -38,7 +38,7 @@ public class MoveCamera : MonoBehaviour {
 			this.transform.position.y - cameraSize.y > backgroundMap.transform.position.y - bgSize.y){
 				move(Vector3.down);
 		}
-		increaseMoveSpeed();
+		increaseMoveSpeedIfMoving();
 	}
 
 	float getCameraWidth(){
@@ -54,7 +54,7 @@ public class MoveCamera : MonoBehaviour {
 		moving = true;
 	}
 
-	void increaseMoveSpeed(){
+	void increaseMoveSpeedIfMoving(){
 		if(moving){
 			speed += 0.02f;
 			return;
