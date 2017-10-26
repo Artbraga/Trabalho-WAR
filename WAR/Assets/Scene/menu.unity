@@ -699,7 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56aa6fa0b5bfd6641b1ced34688663c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  redirectSceneName: game
+  redirectSceneName: playerSelect
 --- !u!114 &1784484349
 MonoBehaviour:
   m_ObjectHideFlags: 0

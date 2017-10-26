@@ -29,7 +29,6 @@ public class AddPlayerToList : MonoBehaviour {
 		return playerNameGO.GetComponent<Text>().text;
 	}
 
-
 	void changePlayerName(string name){
 		Transform input = playerPrefab.transform.GetChild(0);
 		Text playerName = input.GetComponentInChildren<Text>();
