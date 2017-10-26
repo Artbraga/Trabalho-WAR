@@ -11,11 +11,7 @@ public class PlayerList : MonoBehaviour {
 	void Start () {
 		GameObject addPlayer = GameObject.Find("AddPlayer");
 		addPlayerTransform = addPlayer.GetComponent<RectTransform>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+		reorganizeList();
 	}
 
 	public void reorganizeList(){
