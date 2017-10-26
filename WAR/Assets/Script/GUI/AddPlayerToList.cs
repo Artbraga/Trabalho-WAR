@@ -17,13 +17,6 @@ public class AddPlayerToList : MonoBehaviour {
     public void addPlayer(){
 		changePlayerName(getNewPlayerName());
 		instantiateAndReorganizeList();
-		testMaxPlayersAndSetInactive();
-	}
-
-    private void testMaxPlayersAndSetInactive(){
-		if(playerList.childCount == 6){
-			this.gameObject.transform.parent.gameObject.SetActive(false);
-		}
 	}
 
     private void instantiateAndReorganizeList(){

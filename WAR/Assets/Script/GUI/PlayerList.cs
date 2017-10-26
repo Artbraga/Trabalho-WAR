@@ -20,7 +20,15 @@ public class PlayerList : MonoBehaviour {
 			child.GetComponent<RectTransform>().localPosition = myLocalPosition() + Vector3.down * step * i;
 		}
 		addPlayerTransform.localPosition = myLocalPosition() + Vector3.down * step * this.transform.childCount;
+		testAndActivateAddPlayer();
 	}	
+
+	private void testAndActivateAddPlayer(){
+		if(transform.childCount != 6)
+			addPlayerTransform.gameObject.SetActive(true);
+		else
+			addPlayerTransform.gameObject.SetActive(false);
+	}
 
 	private Vector3 myLocalPosition(){
 		return this.transform.GetComponent<RectTransform>().localPosition;

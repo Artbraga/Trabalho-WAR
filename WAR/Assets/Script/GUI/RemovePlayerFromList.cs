@@ -12,14 +12,14 @@ public class RemovePlayerFromList : MonoBehaviour {
 	}
 
 	private void detach(){
-		this.transform.parent.parent = null;
+		this.transform.parent.SetParent(null);
 	}
-    private void reorganizeChilds(){
+	private void reorganizeChilds(){
 		GameObject playerList = GameObject.Find("PlayersList");
 		playerList.GetComponent<PlayerList>().reorganizeList();
-    }
+	}
 
-    private void destroyMe(){
+	private void destroyMe(){
 		Destroy(this.transform.parent.gameObject);
 	}
 }
