@@ -6,11 +6,14 @@ using UnityEngine;
 public class RemovePlayerFromList : MonoBehaviour {
 
 	public void remove(){
-		this.transform.parent.parent = null;
+		detach();
 		reorganizeChilds();
 		destroyMe();
 	}
 
+	private void detach(){
+		this.transform.parent.parent = null;
+	}
     private void reorganizeChilds(){
 		GameObject playerList = GameObject.Find("PlayersList");
 		playerList.GetComponent<PlayerList>().reorganizeList();
