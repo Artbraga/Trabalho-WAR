@@ -1,6 +1,7 @@
 # Trabalho-WAR
 
 # Resumo
+Este é um trabalho proposto pelo Professor Dr. Leonardo Murta para a disciplina de Engenharia de Software 2 no período 2017.2. O trabalho consiste no desenvolvimento e planejamento do jogo WAR com a possibilidade de jogar contra uma IA. Foram adotadas as regras clássicas do jogo.
 
 # Como buildar
 ## Clique em File > Build Settings.
