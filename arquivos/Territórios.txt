@@ -10,7 +10,7 @@
  -(9) Costa Pedregosa
  -(10) Terras Acidentadas
  -(11) Porto Branco
- -(12) Cabo da LLula Gigante
+ -(12) Cabo da Lula Gigante
  -(13) O Gargalo
 
 ----------Terras Fluviais (+2)----------
@@ -24,7 +24,7 @@
  -(19) Montanhas da Lua
  -(20) Os Dedos
  -(21) Ninho da Aguia
- -(22) Vila da Gaivota
+ -(22) Vila da GVaivota
 
  ----------Ilhas de Ferro (+1)----------
  -(23) Pyke
