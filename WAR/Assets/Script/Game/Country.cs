@@ -34,6 +34,6 @@ public class Country : MonoBehaviour {
 		//chamar GUI
 		//atualizar informações da gui
 		//mudar estado da GUI
-		// Camera.main.GetComponent<GameUIController>().updateUI(Player,TroopsCount);
+		//Camera.main.GetComponent<GameUIController>().updateUI(Player,TroopsCount);
 	}
 }

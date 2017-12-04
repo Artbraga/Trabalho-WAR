@@ -198,8 +198,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 383636608}
-        m_MethodName: redirectToGame
+      - m_Target: {fileID: 383636604}
+        m_MethodName: changeSceneOnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -252,9 +252,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 383636602}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f2cec85a3abe1147b5523b92370e349, type: 3}
+  m_Script: {fileID: 11500000, guid: 56aa6fa0b5bfd6641b1ced34688663c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redirectSceneName: 
 --- !u!1 &862823534
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +298,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 862823534}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2360d901000bb7418ff083ee3bf7bb2, type: 3}
+  m_Script: {fileID: 11500000, guid: d611176c1c5b5df45b9e400493d99ca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &893372276
@@ -767,6 +768,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 1903077758}
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1572503547
@@ -810,7 +822,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1572503544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 628fc1d548667204aaeda10dcd7f3750, type: 3}
+  m_Script: {fileID: 11500000, guid: e32c7588411297c478ff510c768e587c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 1314920479580506, guid: dc7bebc8b5230994fb2a5aaff9d79b75,
