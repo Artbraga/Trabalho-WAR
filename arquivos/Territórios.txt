@@ -24,7 +24,7 @@
  -(19) Montanhas da Lua
  -(20) Os Dedos
  -(21) Ninho da Aguia
- -(22) Vila da GVaivota
+ -(22) Vila da Gaivota
 
  ----------Ilhas de Ferro (+1)----------
  -(23) Pyke
