@@ -10,7 +10,7 @@
  -(9) Costa Pedregosa
  -(10) Terras Acidentadas
  -(11) Porto Branco
- -(12) Cabo da LLula Gigante
+ -(12) Cabo da Lula Gigante
  -(13) O Gargalo
 
 ----------Terras Fluviais (+2)----------
